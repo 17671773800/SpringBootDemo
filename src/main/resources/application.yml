@@ -1,0 +1,12 @@
+#配置数据源
+spring:
+  datasource:
+     url: jdbc:mysql://140.143.226.151:3306/LeetCode?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false&useSSL=false
+     username: root
+     password: root
+     driver-class-name: com.mysql.jdbc.Driver
+
+#指定mybatis映射文件的地址
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
